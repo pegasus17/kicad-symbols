@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Segger_JLink_20
+D Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F https://www.segger.com/products/debug-probes/j-link/technology/interface-description/
+$ENDCMP
+#
+$CMP Segger_JLink_SWD
+D Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F https://www.segger.com/products/debug-probes/j-link/technology/interface-description/
+$ENDCMP
+#
 $CMP TestPoint_Flag_Small
 D small test point (alternative flag-style design)
 K test point tp small
