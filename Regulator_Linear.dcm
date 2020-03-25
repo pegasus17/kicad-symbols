@@ -2652,6 +2652,18 @@ K Voltage Regulator 100mA Positive
 F http://www.ti.com/lit/ds/symlink/lm2931-n.pdf
 $ENDCMP
 #
+$CMP LM2931-3.3_TO220
+D Positive 100 mA 60V Linear Low Dropout Regulator, Fixed Output 3.3V, TO-220
+K Low Dropout Voltage Regulator 100mA Positive
+F https://www.ti.com/lit/ds/symlink/lm2931-n.pdf
+$ENDCMP
+#
+$CMP LM2931-5.0_TO220
+D Positive 100 mA 60V Linear Low Dropout Regulator, Fixed Output 5V, TO-220
+K Low Dropout Voltage Regulator 100mA Positive
+F https://www.ti.com/lit/ds/symlink/lm2931-n.pdf
+$ENDCMP
+#
 $CMP LM2931-ADJ_TO92
 D 100mA Low drop-out regulator, Adjustable Output, TO-92
 K REGULATOR LDO Adjustable
@@ -6970,6 +6982,18 @@ $CMP TPS72218
 D Low input voltage 50mA LDO, 1.8V fixed output voltage, SOT-23-5
 K linear low dropout Regulator fixed
 F http://www.ti.com/lit/ds/symlink/tps722.pdf
+$ENDCMP
+#
+$CMP TPS73018DBV
+D Low Noise, High PSRR, 200mA Low Drop 1.8V Regulator, SOT-23-5
+K Fixed LDO 200mA
+F https://www.ti.com/lit/ds/symlink/tps730.pdf
+$ENDCMP
+#
+$CMP TPS730285DBV
+D Low Noise, High PSRR, 200mA Low Drop 2.85V Regulator, SOT-23-5
+K Fixed LDO 200mA
+F https://www.ti.com/lit/ds/symlink/tps730.pdf
 $ENDCMP
 #
 $CMP TPS73101DBV
