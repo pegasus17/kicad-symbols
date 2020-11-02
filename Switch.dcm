@@ -210,6 +210,12 @@ K switch normally-open pushbutton push-button
 F ~
 $ENDCMP
 #
+$CMP SW_Push_45deg_Pin13
+D Push button switch, normally open, two pins, 45° tilted
+K switch normally-open pushbutton push-button
+F ~
+$ENDCMP
+#
 $CMP SW_Push_DPDT
 D Momentary Switch, dual pole double throw
 K switch dual-pole double-throw spdt ON-ON
